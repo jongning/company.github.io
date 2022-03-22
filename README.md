@@ -2,7 +2,7 @@
 
 # Company-quotation By Chanoknon Tangthienkul 6217412
 
-# Project Description This project is built using the MERN stack and deployed with Heroku. The main goal of this project is to implement CRUD with the MERN stack.
+Project Description This project is built using the MERN stack and deployed with Heroku. The main goal of this project is to implement CRUD with the MERN stack.
 
 Functionality - There are mainly 4 pages in the web application
 
