@@ -1,30 +1,20 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\jongn\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+  /usr/local/bin/node /usr/local/bin/yarn
 
 PATH: 
-  C:\Users\jongn\Downloads\VMS\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\jongn\Downloads\VMS\cmder\vendor\conemu-maximus5;C:\Users\jongn\Downloads\VMS\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\jongn\AppData\Local\Microsoft\WindowsApps;C:\Users\jongn\AppData\Roaming\Composer\vendor\bin;C:\Users\jongn\AppData\Roaming\npm;C:\Users\jongn\.dotnet\tools;C:\Users\jongn\AppData\Local\GitHubDesktop\bin;C:\Users\jongn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\jongn\Downloads\VMS\cmder\vendor\bin;C:\Users\jongn\Downloads\VMS\cmder
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
 
 Yarn version: 
   1.22.17
 
 Node version: 
-  17.1.0
+  16.13.2
 
 Platform: 
-  win32 x64
+  darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/AllowedHosts: Not found
-      at Request.params.callback [as _callback] (C:\Users\jongn\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
-      at Request.self.callback (C:\Users\jongn\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
-      at Request.emit (node:events:390:28)
-      at Request.<anonymous> (C:\Users\jongn\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
-      at Request.emit (node:events:390:28)
-      at IncomingMessage.<anonymous> (C:\Users\jongn\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
-      at Object.onceWrapper (node:events:509:28)
-      at IncomingMessage.emit (node:events:402:35)
-      at endReadableNT (node:internal/streams/readable:1340:12)
-      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+  Error: ENOSPC: no space left on device, copyfile '/Users/mike/Library/Caches/Yarn/v6/npm-mongodb-4.2.2-cd70568bd96003877e35358ad17a0c5de35c6dfd-integrity/node_modules/mongodb/lib/sessions.js.map' -> '/Users/mike/Desktop/finalExam/node_modules/mongodb/lib/sessions.js.map'
 
 npm manifest: 
   {
@@ -45,9 +35,7 @@ npm manifest:
       "mongoose": "^6.1.4",
       "morgan": "~1.9.1",
       "nodemon": "^2.0.15",
-      "pug": "^3.0.2",
-      "AllowedHosts": "*",
-      "AllowOrigin": "*"
+      "pug": "^3.0.2"
     }
   }
 
