@@ -1,9 +1,6 @@
 {
   "name": "sol",
-  "version": "1.0.0",
-  "engines": {
-    "node": "^16.13.2"
-  },
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
